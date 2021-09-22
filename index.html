@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Super Secret</title>
+</head>
+<style>
+
+@font-face{
+  font-family: Candice;
+  src: url("Candice.woff");
+}
+
+#main{
+  text-align: center;
+  font-family: Candice;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+body{
+  background-color: #2462e8;
+}
+
+a{
+  text-decoration: none;
+  padding: 50px;
+  text-align: center;
+  background-color: #82e6f2;
+  color: #ff4ac1;
+}
+
+</style>
+<script>
+function begin() {
+  document.getElementById("main").style.transform = "translateY(" + ((window.innerHeight / 2) - 25) + "px)";
+  document.getElementById("main").innerHTML = "You recognize, the font don't you";
+  setTimeout(function() {document.getElementById("main").innerHTML = "*I am sorry, I forgot how to do transitions<br>so its gonna be choppy<br>Anyways, enjoy !!!";document.getElementById("main").style.fontSize = "30px";}, 3000);
+  setTimeout(function() {document.getElementById("main").style.fontSize = "50px";document.getElementById("main").innerHTML = "You totally recognize this font";}, 8000);
+  setTimeout(function() {document.getElementById("main").innerHTML = "Yup, it's from <span style=\"color:#ff4ac1;\">Crush Crush</span>";}, 11000);
+  setTimeout(function() {document.getElementById("main").innerHTML = "So now, lemme tell you what I did with <span style=\"color:#ff4ac1;\">Crush Crush</span>";}, 14000);
+  setTimeout(function() {document.getElementById("main").innerHTML = "I made a clone of it";}, 17000);
+  setTimeout(function() {document.getElementById("main").innerHTML = '<image src="screenshot.png">';document.getElementById("main").style.transform = "translateY(0px)";}, 19900);
+  setTimeout(function() {document.getElementById("main").style.transform = "translateY(" + ((window.innerHeight / 2) - 25) + "px)";document.getElementById("main").innerHTML = "Why?";}, 20000);
+  setTimeout(function() {document.getElementById("main").innerHTML = "Idk, I just guessed that you might like it";}, 23000);
+  setTimeout(function() {document.getElementById("main").innerHTML = "I know that it is stupid<br>no need to explain me that";document.getElementById("main").style.transform = "translateY(" + ((window.innerHeight / 2) - 50) + "px)";}, 26000);
+  setTimeout(function() {document.getElementById("main").innerHTML = "It was quite difficult<br>And I messed up quite a lot of times";}, 30000);
+  setTimeout(function() {document.getElementById("main").innerHTML = "The most difficult thing was to finish it within the time<br>Then my internet died on the last day, I was utterly confused on how I would upload the site";}, 34000);
+  setTimeout(function() {document.getElementById("main").innerHTML = "*I don't even know if i will be able to upload this by 23rd (at the time of writing)";document.getElementById("main").style.fontSize = "30px";document.getElementById("main").style.transform = "translateY(" + ((window.innerHeight / 2) - 25) + "px)";}, 40000);
+  setTimeout(function() {document.getElementById("main").style.fontSize = "50px";document.getElementById("main").innerHTML = "So now I present to you";}, 44000);
+  setTimeout(function() {document.getElementById("main").innerHTML = "The stupidest, buggiest<br><span style=\"color:#ff4ac1;\">Crush Crush</span> clone in the entire world";document.getElementById("main").style.transform = "translateY(" + ((window.innerHeight / 2) - 50) + "px)";}, 47000);
+  setTimeout(function() {document.getElementById("main").innerHTML = "*Don't worry, it isn't that buggy";document.getElementById("main").style.fontSize = "30px";document.getElementById("main").style.transform = "translateY(" + ((window.innerHeight / 2) - 25) + "px)";}, 50000);
+  setTimeout(function() {document.getElementById("main").style.fontSize = "50px";document.getElementById("main").innerHTML = "Here it goes";}, 54000);
+  setTimeout(function() {document.getElementById("main").innerHTML = "*I forgot how to redirect automatically, do it manually";document.getElementById("main").style.fontSize = "30px";}, 57000);
+  setTimeout(function() {document.getElementById("main").style.fontSize = "50px";document.getElementById("main").innerHTML = "<a href=\"https://something-secret.github.io/Candy-Crush/\">Open Candy Crush</a>";}, 60000);
+}
+</script>
+<body onload="begin()">
+  <div id="main">
+  </div>
+</body>
+</html>
